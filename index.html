@@ -343,6 +343,11 @@
             background: var(--accent-purple);
             box-shadow: 0 0 12px rgba(139, 124, 240, 0.2);
         }
+        /* 自民党卡片专用绿色圆点 */
+        .icon-dot.ldp-green {
+            background: #2ca05a;
+            box-shadow: 0 0 14px rgba(44, 160, 90, 0.35);
+        }
 
         /* ── OI 等级徽章 ── */
         .level-badge-row {
@@ -767,6 +772,28 @@
                 </table>
             </div>
         </section>
+
+        <!-- ★━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━★ -->
+        <!-- 自由民主党党員カード 挿入位置：CSP成績とリンク集の間 -->
+        <!-- ★━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━★ -->
+        <section class="card" aria-labelledby="ldp-heading">
+            <div class="card-header">
+                <span class="icon-dot ldp-green"></span>
+                <span id="ldp-heading">🏛️ 自由民主党党員</span>
+            </div>
+            <p style="font-size:0.9rem; color: var(--text-secondary); margin-bottom: 12px;">
+                私は自由民主党の党員です。日本の未来のために、政策活動や地域のボランティアに参加しています。
+            </p>
+            <div style="display: flex; gap: 16px; flex-wrap: wrap; font-size:0.8rem; color: var(--text-muted);">
+                <span style="display:flex; align-items:center; gap:5px;">🟢 所属：自由民主党 (LDP)</span>
+                <span style="display:flex; align-items:center; gap:5px;">🗳️ 党員歴：2年</span>
+                <span style="display:flex; align-items:center; gap:5px;">📍 東京都支部</span>
+            </div>
+            <p style="font-size:0.72rem; color: var(--text-muted); margin-top: 12px; font-style: italic;">
+                「誇りある国、日本を次世代へ。」
+            </p>
+        </section>
+        <!-- ★ 自由民主党カード ここまで ★ -->
 
         <!-- 链接卡片 -->
         <section class="card" aria-labelledby="links-heading" id="contact">
